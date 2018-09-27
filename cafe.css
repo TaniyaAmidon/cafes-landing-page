@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin: 0;  
+    font-size:100%;
+}
+
+body {
+
+    font-family: 'Aclonica';
+    color: #3e4444;
+    font-size: 1rem;
+    background-color: #fff2df;
+    }
+
+#primarynav {
+    background-color: #674d3c;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff2df;
+}
+
+li:first-child a {
+    border-left: 1px solid #d9ad7c;
+}
+
+a{
+    border-right: 1px solid #d9ad7c;
+    text-decoration: none;
+    padding: 0.8rem;
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+}
+
+a:hover{
+    color: #f4a688;
+}
+
+.pageheader{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.introduction{
+  text-align: center;
+  padding: 2rem 0 2rem 0 2rem;
+ }
+
+.introduction h2{
+    font-size: 2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.cafes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cafe {
+    width: 20rem;
+    min-width: 15rem;
+    padding: 0;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+figcaption{
+    font-size: 1.5rem;
+    color: #674d3c;
+}
+
+.title p{
+    color:#a2836e;
+}
+.title h3{
+    font-size: 1.5rem;
+    color: #fff2df;
+    padding: 1rem 0 2rem 0;
+    
+}
+
+.photo{
+    text-align: center;
+}
+
+
+
+.photo img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.pagefotter{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 4rem;
+}
+
